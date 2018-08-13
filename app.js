@@ -47,7 +47,7 @@ var basicQnAMakerPreviewDialog = new builder_cognitiveservices.QnAMakerDialog({
     recognizers: [previewRecognizer],
     textFormat: 'markdown',
     //defaultMessage: '<a href="im:emiliano.sanchez@newtech.com.ar">Chat?<a/>',
-    defaultMessage: '[bing](http://www.bing.com)',
+    defaultMessage: '[Chat](im:emiliano.sanchez@newtech.com.ar)',
     qnaThreshold: 0.3
 }
 );
@@ -65,7 +65,7 @@ var basicQnAMakerDialog = new builder_cognitiveservices.QnAMakerDialog({
     recognizers: [recognizer],
     textFormat: 'markdown',
     //defaultMessage: '<a href="im:emiliano.sanchez@newtech.com.ar">Chat?<a/>',
-    defaultMessage: '[bing](http://www.bing.com)',
+    defaultMessage: '[Chat](im:emiliano.sanchez@newtech.com.ar)',
     qnaThreshold: 0.3
 }
 );
