@@ -45,8 +45,8 @@ var previewRecognizer = new builder_cognitiveservices.QnAMakerRecognizer({
 
 var basicQnAMakerPreviewDialog = new builder_cognitiveservices.QnAMakerDialog({
     recognizers: [previewRecognizer],
-    textFormat: "xml",
-    defaultMessage: '<a href="im:amiliano.sanchez@newtech.com.ar">Chat?<a/>',
+    textFormat: xml,
+    defaultMessage: '<a href="im:emiliano.sanchez@newtech.com.ar">Chat?<a/>',
     qnaThreshold: 0.3
 }
 );
@@ -62,8 +62,8 @@ var recognizer = new builder_cognitiveservices.QnAMakerRecognizer({
 
 var basicQnAMakerDialog = new builder_cognitiveservices.QnAMakerDialog({
     recognizers: [recognizer],
-    textFormat: "xml",
-    defaultMessage: '<a href="im:amiliano.sanchez@newtech.com.ar">Chat?<a/>',
+    textFormat: xml,
+    defaultMessage: '<a href="im:emiliano.sanchez@newtech.com.ar">Chat?<a/>',
     qnaThreshold: 0.3
 }
 );
