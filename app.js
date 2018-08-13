@@ -48,7 +48,7 @@ var basicQnAMakerPreviewDialog = new builder_cognitiveservices.QnAMakerDialog({
     textFormat: 'xml',
     defaultMessage: 'En estos momentos no te puedo ayudar con tu pregunta, por favor hace click <a href="https://teams.microsoft.com/l/channel/19%3aed292da5c01f4700bb83111bc2e58bc4%40thread.skype/RRHH?groupId=f8d1932a-ec9c-41f9-a2df-e2c430e22337&tenantId=58005ddb-3d82-4718-9e75-ec5c71cca7ec">aquí</a> para ser atendido por un representante del grupo de RRHH.',
     //defaultMessage: '[Chat](im:emiliano.sanchez@newtech.com.ar)',
-    qnaThreshold: 0.3
+    qnaThreshold: 0.2
 }
 );
 
@@ -66,7 +66,7 @@ var basicQnAMakerDialog = new builder_cognitiveservices.QnAMakerDialog({
     textFormat: 'xml',
     defaultMessage: 'En estos momentos no te puedo ayudar con tu pregunta, por favor hace click <a href="https://teams.microsoft.com/l/channel/19%3aed292da5c01f4700bb83111bc2e58bc4%40thread.skype/RRHH?groupId=f8d1932a-ec9c-41f9-a2df-e2c430e22337&tenantId=58005ddb-3d82-4718-9e75-ec5c71cca7ec">aquí</a> para ser atendido por un representante del grupo de RRHH.',
     //defaultMessage: '[Chat](im:emiliano.sanchez@newtech.com.ar)',
-    qnaThreshold: 0.3
+    qnaThreshold: 0.2
 }
 );
 
