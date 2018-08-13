@@ -46,7 +46,7 @@ var previewRecognizer = new builder_cognitiveservices.QnAMakerRecognizer({
 var basicQnAMakerPreviewDialog = new builder_cognitiveservices.QnAMakerDialog({
     recognizers: [previewRecognizer],
     textFormat: 'xml',
-    defaultMessage: "<a href='http://im:emiliano.sanchez@newtech.com.ar'>Chat<a/>",
+    defaultMessage: "<a href='https://teams.microsoft.com/l/channel/19%3a5977e592279f46e7937d4206a7b8047c%40thread.skype/General?groupId=75bd8f82-4b8d-4b99-aced-3b93f5fdd54b&tenantId=58005ddb-3d82-4718-9e75-ec5c71cca7ec'>Chat<a/>",
     //defaultMessage: '[Chat](im:emiliano.sanchez@newtech.com.ar)',
     qnaThreshold: 0.3
 }
@@ -64,7 +64,7 @@ var recognizer = new builder_cognitiveservices.QnAMakerRecognizer({
 var basicQnAMakerDialog = new builder_cognitiveservices.QnAMakerDialog({
     recognizers: [recognizer],
     textFormat: 'xml',
-    defaultMessage: "<a href='http://im:emiliano.sanchez@newtech.com.ar'>Chat<a/>",
+    defaultMessage: "<a href='https://teams.microsoft.com/l/channel/19%3a5977e592279f46e7937d4206a7b8047c%40thread.skype/General?groupId=75bd8f82-4b8d-4b99-aced-3b93f5fdd54b&tenantId=58005ddb-3d82-4718-9e75-ec5c71cca7ec'>Chat<a/>",
     //defaultMessage: '[Chat](im:emiliano.sanchez@newtech.com.ar)',
     qnaThreshold: 0.3
 }
