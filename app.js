@@ -46,7 +46,7 @@ var previewRecognizer = new builder_cognitiveservices.QnAMakerRecognizer({
 var basicQnAMakerPreviewDialog = new builder_cognitiveservices.QnAMakerDialog({
     recognizers: [previewRecognizer],
     textFormat: 'xml',
-    defaultMessage: 'En estos momentos no te puedo ayudar con tu pregunta, por favor hace click <a href="https://teams.microsoft.com/l/channel/19%3aed292da5c01f4700bb83111bc2e58bc4%40thread.skype/RRHH?groupId=f8d1932a-ec9c-41f9-a2df-e2c430e22337&tenantId=58005ddb-3d82-4718-9e75-ec5c71cca7ec">aquí</a> para ser atendido por un representante del grupo de RRHH.',
+    defaultMessage: 'En estos momentos no te puedo ayudar con tu pregunta, por favor hace click <a href="https://teams.microsoft.com/l/channel/19%3a60ccb9d736654ddc8ab7a2696ada9be9%40thread.skype/RRHH?groupId=d67d8d30-360c-4894-8366-c00cd84324ed&tenantId=9cf234fb-8b26-46b5-aad4-b187612bb277">aquí</a> para ser atendido por un representante del grupo de RRHH.',
     //defaultMessage: '[Chat](im:emiliano.sanchez@newtech.com.ar)',
     qnaThreshold: 0.2
 }
@@ -64,7 +64,7 @@ var recognizer = new builder_cognitiveservices.QnAMakerRecognizer({
 var basicQnAMakerDialog = new builder_cognitiveservices.QnAMakerDialog({
     recognizers: [recognizer],
     textFormat: 'xml',
-    defaultMessage: 'En estos momentos no te puedo ayudar con tu pregunta, por favor hace click <a href="https://teams.microsoft.com/l/channel/19%3aed292da5c01f4700bb83111bc2e58bc4%40thread.skype/RRHH?groupId=f8d1932a-ec9c-41f9-a2df-e2c430e22337&tenantId=58005ddb-3d82-4718-9e75-ec5c71cca7ec">aquí</a> para ser atendido por un representante del grupo de RRHH.',
+    defaultMessage: 'En estos momentos no te puedo ayudar con tu pregunta, por favor hace click <a href="https://teams.microsoft.com/l/channel/19%3a60ccb9d736654ddc8ab7a2696ada9be9%40thread.skype/RRHH?groupId=d67d8d30-360c-4894-8366-c00cd84324ed&tenantId=9cf234fb-8b26-46b5-aad4-b187612bb277">aquí</a> para ser atendido por un representante del grupo de RRHH.',
     //defaultMessage: '[Chat](im:emiliano.sanchez@newtech.com.ar)',
     qnaThreshold: 0.2
 }
